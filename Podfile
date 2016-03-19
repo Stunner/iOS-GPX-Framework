@@ -3,3 +3,4 @@ xcodeproj 'GPX.xcodeproj'
 inhibit_all_warnings!
 
 pod 'iOS-GPX-Framework', :path => '.'
+pod 'TBXML', '~> 1.5'

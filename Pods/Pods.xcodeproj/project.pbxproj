@@ -1,2615 +1,790 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>03257B975BC74B3AA1838420</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>66AF158FBF3D43FC940EA982</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-iOS-GPX-Framework-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>03B89BE0A18442239F133593</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5C7E0EEF7822441F97BD2E83</string>
-				<string>2B90D2DB75554C41BB44C869</string>
-				<string>E2F011C42D8243DDB2EC6B5D</string>
-				<string>44393BDDB1C54795BF1826A7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>04B714198146468FBB81EB37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F5E37FD6F39401CB60654C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09169971776C4CA0A65B2543</key>
-		<dict>
-			<key>fileRef</key>
-			<string>350FEF97442248789E8D2C72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0964909E1F2A49D19AC95F44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0B2D7038C58C40099445C627</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E20B5FC3CC44B02AAB5BCCC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>939034A753984E2DADB3D567</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>118E09580D1647FE83AFCF74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXElement.m</string>
-			<key>path</key>
-			<string>GPX/GPXElement.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12A9C248BCAA444E8F73BA42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61532C8FB2A249BD9F29FA2B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>15D42F34953743A79E6787A4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXPerson.m</string>
-			<key>path</key>
-			<string>GPX/GPXPerson.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18036DFC09B1447CB71E533B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3450EAF855E847DCA4E472B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1821EB47E268427F81B6CBF8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A76A2F99ECE04AA380B939AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>1898766A1F124EACB221EDFB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5FEF156CC95C4C428B524A00</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>1934C2A7B1644F679CD7A9BD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4DE4C88D9DC04B3180F2DB5B</string>
-				<string>A80490B556074F6792BF60DD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1B30F7680FDE40BF81CB548D</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>DE5FE68772184887A92689E9</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FBD113F85E8D452B8DD88145</string>
-			<key>productRefGroup</key>
-			<string>AC535544D3124A8BBFC8AD5D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>669FB1858EBF440DAA82DE85</string>
-				<string>D45751323E1C4A91812F7889</string>
-				<string>AC9B049759A14FDDA4C0A5FE</string>
-			</array>
-		</dict>
-		<key>1D1FD313489E4578AA745CB4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXPerson.h</string>
-			<key>path</key>
-			<string>GPX/GPXPerson.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>218B1E99FBE84F0283AED163</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>23DF78DA0D994C1FA34FBC90</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23EA7C56D1A0407F80262D19</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>765ED289FA5F492A991E1153</string>
-				<string>1821EB47E268427F81B6CBF8</string>
-				<string>9F05F928CBF142489E6639A0</string>
-				<string>D6AAF4F4EED24F06AAC6EC3E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>24A7EEB43E75469CA184C2F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>880F38DBA3BA446195B9915B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>24DD0073B9A2412D857A81A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXTrackSegment.h</string>
-			<key>path</key>
-			<string>GPX/GPXTrackSegment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>259F5DEBAB4A4FB180F4E2EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-iOS-GPX-Framework-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25AB3DA94F1C4915BAF7ED96</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D17F04A2B7148278DF84831</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>26A4F516B1D840C48361E2CD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>66AF158FBF3D43FC940EA982</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-iOS-GPX-Framework-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2714474369D3448C93969989</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>28CC4B6222E04D30BE8B1BAB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXEmail.m</string>
-			<key>path</key>
-			<string>GPX/GPXEmail.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>293821B42C404AF29F5C2176</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXElementSubclass.h</string>
-			<key>path</key>
-			<string>GPX/GPXElementSubclass.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B90D2DB75554C41BB44C869</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TBXML-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31F61DF870E74D9EB8D7A89A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>581B405F55724F25AFCA5328</string>
-				<string>B42575DC05554458A24FD583</string>
-				<string>880F38DBA3BA446195B9915B</string>
-				<string>A76A2F99ECE04AA380B939AC</string>
-				<string>AC979DF67DAC44B2B756DA52</string>
-				<string>BE47C5E6801F4C9492498D28</string>
-				<string>03B89BE0A18442239F133593</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TBXML</string>
-			<key>path</key>
-			<string>TBXML</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3450EAF855E847DCA4E472B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXPoint.h</string>
-			<key>path</key>
-			<string>GPX/GPXPoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3499D99EB49F4603B083711B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXTrackSegment.m</string>
-			<key>path</key>
-			<string>GPX/GPXTrackSegment.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>350FEF97442248789E8D2C72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXCopyright.h</string>
-			<key>path</key>
-			<string>GPX/GPXCopyright.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3645C01EE6D044A989FD569E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXBounds.h</string>
-			<key>path</key>
-			<string>GPX/GPXBounds.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36DED1B09A0D4849AF08E56F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXEmail.h</string>
-			<key>path</key>
-			<string>GPX/GPXEmail.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38334B508D0243679851146C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EEFF7D9C60C34F76A703667A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>3A8794E5DA874CCA8BB5E936</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXRoutePoint.h</string>
-			<key>path</key>
-			<string>GPX/GPXRoutePoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B18BEDCD64E417AB3FBDA92</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FF295B49EEA54A159E8621BC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3E600267D4704A1EA1EBE747</key>
-		<dict>
-			<key>fileRef</key>
-			<string>720781F01ACB4EDD8F368614</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>44393BDDB1C54795BF1826A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-TBXML-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A2A4B255D93447BA08A7D4D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXRoot.h</string>
-			<key>path</key>
-			<string>GPX/GPXRoot.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D268075D5494E6EB3434AF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXPointSegment.h</string>
-			<key>path</key>
-			<string>GPX/GPXPointSegment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DE4C88D9DC04B3180F2DB5B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ACAFC723FBE34D80A2051528</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4EEACA2D7EDB4CBBAF7A5E47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>88F51FC64D9F4958AFEF8692</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>4EED4EF593C942CFB52E3063</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>24A7EEB43E75469CA184C2F8</string>
-				<string>BBB30E2696574FEA8E53C40F</string>
-				<string>B30859C94D444434A49BDA3F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>56EA6874216A4F8F85EF55FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>259F5DEBAB4A4FB180F4E2EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>581B405F55724F25AFCA5328</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TBXML.h</string>
-			<key>path</key>
-			<string>TBXML-Headers/TBXML.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C4843EC05434D34AE669B4D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXExtensions.m</string>
-			<key>path</key>
-			<string>GPX/GPXExtensions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C7E0EEF7822441F97BD2E83</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TBXML.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FEF156CC95C4C428B524A00</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXPoint.m</string>
-			<key>path</key>
-			<string>GPX/GPXPoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61532C8FB2A249BD9F29FA2B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXLink.m</string>
-			<key>path</key>
-			<string>GPX/GPXLink.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6168C75FD7FB43B7A4031B6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24DD0073B9A2412D857A81A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61A411584DC1486CAC9F07E0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BE315F03201F47D4B7AFB7F7</string>
-				<string>924AFA2766574F4AB9CF43E9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>63348401E74147AAAA7C10FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXExtensions.h</string>
-			<key>path</key>
-			<string>GPX/GPXExtensions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>646533AC2B7040DB80A74EBF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>28CC4B6222E04D30BE8B1BAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>64B5C965D0FA48818773A687</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXRoutePoint.m</string>
-			<key>path</key>
-			<string>GPX/GPXRoutePoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>652086FFD0664D8C8DBE698D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>664201079828460293FF871D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E53E982A658D45F3BC044EF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>669FB1858EBF440DAA82DE85</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1934C2A7B1644F679CD7A9BD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E4CC3D523C734FAA832BD9CA</string>
-				<string>E3BC27DF4A9E46A19F01075A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>974A11CCB9984085B74848D0</string>
-				<string>76EE72D66CB24DDD9901B360</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>2714474369D3448C93969989</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>66AF158FBF3D43FC940EA982</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iOS-GPX-Framework-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>677552EC1F5D4EAD9AF0B96D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3499D99EB49F4603B083711B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>68C50ADFC69A4926909BC75A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPX.h</string>
-			<key>path</key>
-			<string>GPX/GPX.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CD862F12B8A456B81509868</key>
-		<dict>
-			<key>fileRef</key>
-			<string>293821B42C404AF29F5C2176</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>720781F01ACB4EDD8F368614</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXConst.m</string>
-			<key>path</key>
-			<string>GPX/GPXConst.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7289DCBD2EEF4B929A756A5C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8FCC2AA5756B4117A3E7B2D8</string>
-				<string>38334B508D0243679851146C</string>
-				<string>3E600267D4704A1EA1EBE747</string>
-				<string>8690DEA5F382466C9871DB08</string>
-				<string>ED39D247911249B18B3E8F92</string>
-				<string>646533AC2B7040DB80A74EBF</string>
-				<string>AB8C6B6EB22345B7923C261F</string>
-				<string>12A9C248BCAA444E8F73BA42</string>
-				<string>CAFBBDEA2DEB46CC82E7E403</string>
-				<string>7A806BC06B154D19AD27E44A</string>
-				<string>A8788A8D1EA24807A2C69E76</string>
-				<string>1898766A1F124EACB221EDFB</string>
-				<string>BD194086941A49DA9C76CF1F</string>
-				<string>0E20B5FC3CC44B02AAB5BCCC</string>
-				<string>EFAAA853C1494AC5AB0A5868</string>
-				<string>82BD4110D62C45D1878F9D10</string>
-				<string>B2C2D9BDC8C64058958D658D</string>
-				<string>4EEACA2D7EDB4CBBAF7A5E47</string>
-				<string>677552EC1F5D4EAD9AF0B96D</string>
-				<string>82EA0809571046C9979C788A</string>
-				<string>8B1A5B25F8984D919A1800F4</string>
-				<string>56EA6874216A4F8F85EF55FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>765ED289FA5F492A991E1153</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2F011C42D8243DDB2EC6B5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>76EE72D66CB24DDD9901B360</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>AC9B049759A14FDDA4C0A5FE</string>
-			<key>targetProxy</key>
-			<string>78690A259B754C17B41CAE1C</string>
-		</dict>
-		<key>78690A259B754C17B41CAE1C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>1B30F7680FDE40BF81CB548D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>AC9B049759A14FDDA4C0A5FE</string>
-			<key>remoteInfo</key>
-			<string>Pods-iOS-GPX-Framework</string>
-		</dict>
-		<key>79294BC7079A4D25A5B452DF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>1B30F7680FDE40BF81CB548D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D45751323E1C4A91812F7889</string>
-			<key>remoteInfo</key>
-			<string>Pods-TBXML</string>
-		</dict>
-		<key>79C0C513E06647FFB6F2754D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXRoute.h</string>
-			<key>path</key>
-			<string>GPX/GPXRoute.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A806BC06B154D19AD27E44A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FB389199224F4AAFA52966AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>7B83DDD8F47A470B9B272D24</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9B013C5FC10A454F91D2FEF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D17F04A2B7148278DF84831</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXType.h</string>
-			<key>path</key>
-			<string>GPX/GPXType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D31422CE537460789FFD517</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A8794E5DA874CCA8BB5E936</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>82755AFFBCAA49D8965A1671</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ACAFC723FBE34D80A2051528</string>
-				<string>C357D414F0794C6682BC281F</string>
-				<string>0964909E1F2A49D19AC95F44</string>
-				<string>0B2D7038C58C40099445C627</string>
-				<string>652086FFD0664D8C8DBE698D</string>
-				<string>23DF78DA0D994C1FA34FBC90</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>829E36CE3B1B4743B044DD21</key>
-		<dict>
-			<key>fileRef</key>
-			<string>36DED1B09A0D4849AF08E56F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>82BD4110D62C45D1878F9D10</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64B5C965D0FA48818773A687</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>82EA0809571046C9979C788A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4117E3836C44B5ABA9542E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>84D4689E2F284C848D988778</key>
-		<dict>
-			<key>fileRef</key>
-			<string>79C0C513E06647FFB6F2754D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>852DFF7EFA2E43C6A8702F4E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8690DEA5F382466C9871DB08</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF1BD210691A448CBDCA8B37</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>879093802A6949CF82E34195</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0B2D7038C58C40099445C627</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>880F38DBA3BA446195B9915B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TBXML+Compression.h</string>
-			<key>path</key>
-			<string>TBXML-Headers/TBXML+Compression.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88F51FC64D9F4958AFEF8692</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXTrackPoint.m</string>
-			<key>path</key>
-			<string>GPX/GPXTrackPoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>891E728AF58145F3BE8FC3E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A77E75E1EEF8451BBA25C428</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8ACEEA4744404E91A925F87A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>68C50ADFC69A4926909BC75A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8B1A5B25F8984D919A1800F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D62DCEB8D44C401D81052D4C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>8FCC2AA5756B4117A3E7B2D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>925B36F7A129431ABB20E544</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>91DEBCE4050D40AFA784DCB3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA7CB43C9EF54CB5972BF133</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>924AFA2766574F4AB9CF43E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>218B1E99FBE84F0283AED163</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>925B36F7A129431ABB20E544</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXAuthor.m</string>
-			<key>path</key>
-			<string>GPX/GPXAuthor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939034A753984E2DADB3D567</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXRoot.m</string>
-			<key>path</key>
-			<string>GPX/GPXRoot.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>974A11CCB9984085B74848D0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D45751323E1C4A91812F7889</string>
-			<key>targetProxy</key>
-			<string>79294BC7079A4D25A5B452DF</string>
-		</dict>
-		<key>981B19056EDC4CA78612853C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>03257B975BC74B3AA1838420</string>
-				<string>26A4F516B1D840C48361E2CD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9B013C5FC10A454F91D2FEF9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>68C50ADFC69A4926909BC75A</string>
-				<string>A6633DBBA65D40A29FE8613E</string>
-				<string>925B36F7A129431ABB20E544</string>
-				<string>3645C01EE6D044A989FD569E</string>
-				<string>EEFF7D9C60C34F76A703667A</string>
-				<string>E54C980602FA428294D545FC</string>
-				<string>720781F01ACB4EDD8F368614</string>
-				<string>350FEF97442248789E8D2C72</string>
-				<string>BF1BD210691A448CBDCA8B37</string>
-				<string>A77E75E1EEF8451BBA25C428</string>
-				<string>118E09580D1647FE83AFCF74</string>
-				<string>293821B42C404AF29F5C2176</string>
-				<string>36DED1B09A0D4849AF08E56F</string>
-				<string>28CC4B6222E04D30BE8B1BAB</string>
-				<string>63348401E74147AAAA7C10FB</string>
-				<string>5C4843EC05434D34AE669B4D</string>
-				<string>ED32BFE07C5B424A9BFBFA54</string>
-				<string>61532C8FB2A249BD9F29FA2B</string>
-				<string>CA3FB083254E42A288A2F8A1</string>
-				<string>EC333FA3C2C143449C08B8A0</string>
-				<string>9F5E37FD6F39401CB60654C4</string>
-				<string>FB389199224F4AAFA52966AD</string>
-				<string>1D1FD313489E4578AA745CB4</string>
-				<string>15D42F34953743A79E6787A4</string>
-				<string>3450EAF855E847DCA4E472B7</string>
-				<string>5FEF156CC95C4C428B524A00</string>
-				<string>4D268075D5494E6EB3434AF4</string>
-				<string>A6C38B8133C34420AE45521B</string>
-				<string>4A2A4B255D93447BA08A7D4D</string>
-				<string>939034A753984E2DADB3D567</string>
-				<string>79C0C513E06647FFB6F2754D</string>
-				<string>9D2CAAE3A795439EBC91281C</string>
-				<string>3A8794E5DA874CCA8BB5E936</string>
-				<string>64B5C965D0FA48818773A687</string>
-				<string>EA7CB43C9EF54CB5972BF133</string>
-				<string>BBAF1FC03B334E5F9514EA0D</string>
-				<string>B567C62A9EBE474BA10D53EC</string>
-				<string>88F51FC64D9F4958AFEF8692</string>
-				<string>24DD0073B9A2412D857A81A0</string>
-				<string>3499D99EB49F4603B083711B</string>
-				<string>7D17F04A2B7148278DF84831</string>
-				<string>E4117E3836C44B5ABA9542E6</string>
-				<string>E02600BB93264F429A443E03</string>
-				<string>D62DCEB8D44C401D81052D4C</string>
-				<string>9E82BF3A0D8447AD88A4DA56</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS-GPX-Framework</string>
-			<key>path</key>
-			<string>..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CA430A160414398BBEE4BBD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ED32BFE07C5B424A9BFBFA54</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D2CAAE3A795439EBC91281C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXRoute.m</string>
-			<key>path</key>
-			<string>GPX/GPXRoute.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E82BF3A0D8447AD88A4DA56</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E627A132358C452D996A8F82</string>
-				<string>66AF158FBF3D43FC940EA982</string>
-				<string>259F5DEBAB4A4FB180F4E2EE</string>
-				<string>B3D8925C2AA74A2087DA2027</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9F05F928CBF142489E6639A0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BE47C5E6801F4C9492498D28</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>9F5E37FD6F39401CB60654C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXParser.h</string>
-			<key>path</key>
-			<string>GPX/GPXParser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F833811BC454956BB9AF446</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF261DB77F5349B3AF545B72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A59ED66BAEB541E1ACE1216C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA3FB083254E42A288A2F8A1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A6633DBBA65D40A29FE8613E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXAuthor.h</string>
-			<key>path</key>
-			<string>GPX/GPXAuthor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6C38B8133C34420AE45521B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXPointSegment.m</string>
-			<key>path</key>
-			<string>GPX/GPXPointSegment.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A76A2F99ECE04AA380B939AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TBXML+Compression.m</string>
-			<key>path</key>
-			<string>TBXML-Code/TBXML+Compression.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A77E75E1EEF8451BBA25C428</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXElement.h</string>
-			<key>path</key>
-			<string>GPX/GPXElement.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A80490B556074F6792BF60DD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ACAFC723FBE34D80A2051528</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A8788A8D1EA24807A2C69E76</key>
-		<dict>
-			<key>fileRef</key>
-			<string>15D42F34953743A79E6787A4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>AA8088144CA3415E9A6A693D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D1FD313489E4578AA745CB4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AB8C6B6EB22345B7923C261F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C4843EC05434D34AE669B4D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>ABCA5C5A653F4332B1D40066</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>1B30F7680FDE40BF81CB548D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D45751323E1C4A91812F7889</string>
-			<key>remoteInfo</key>
-			<string>Pods-TBXML</string>
-		</dict>
-		<key>AC535544D3124A8BBFC8AD5D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2714474369D3448C93969989</string>
-				<string>B72263C824434E9FB19D78C1</string>
-				<string>FF295B49EEA54A159E8621BC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC979DF67DAC44B2B756DA52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TBXML+HTTP.h</string>
-			<key>path</key>
-			<string>TBXML-Headers/TBXML+HTTP.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC9B049759A14FDDA4C0A5FE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>981B19056EDC4CA78612853C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7289DCBD2EEF4B929A756A5C</string>
-				<string>61A411584DC1486CAC9F07E0</string>
-				<string>B1AE18A1219A4DAB9AA95AA8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C05D531288F34FA6BE9C479F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-iOS-GPX-Framework</string>
-			<key>productName</key>
-			<string>Pods-iOS-GPX-Framework</string>
-			<key>productReference</key>
-			<string>FF295B49EEA54A159E8621BC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>ACAFC723FBE34D80A2051528</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF261DB77F5349B3AF545B72</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E53E982A658D45F3BC044EF4</string>
-				<string>218B1E99FBE84F0283AED163</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B14BF62DC7F54AC9A5770718</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>82755AFFBCAA49D8965A1671</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B18FEBF99C0442EE8005080E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C6081C1E8F404FEAA54C245A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B1AE18A1219A4DAB9AA95AA8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8ACEEA4744404E91A925F87A</string>
-				<string>DF58BA108443497D94FA2434</string>
-				<string>ED67625344CE4D82B1F6C3E4</string>
-				<string>C983BA758E0C420CA351E534</string>
-				<string>09169971776C4CA0A65B2543</string>
-				<string>891E728AF58145F3BE8FC3E0</string>
-				<string>6CD862F12B8A456B81509868</string>
-				<string>829E36CE3B1B4743B044DD21</string>
-				<string>EE860F68F3FE4884B31A28DE</string>
-				<string>9CA430A160414398BBEE4BBD</string>
-				<string>A59ED66BAEB541E1ACE1216C</string>
-				<string>04B714198146468FBB81EB37</string>
-				<string>AA8088144CA3415E9A6A693D</string>
-				<string>18036DFC09B1447CB71E533B</string>
-				<string>EBF82EB336CD4F739D85E6F9</string>
-				<string>D6FF715703D64D0D8A1C343C</string>
-				<string>84D4689E2F284C848D988778</string>
-				<string>7D31422CE537460789FFD517</string>
-				<string>91DEBCE4050D40AFA784DCB3</string>
-				<string>C61A8E9687FA4669971B87FD</string>
-				<string>6168C75FD7FB43B7A4031B6E</string>
-				<string>25AB3DA94F1C4915BAF7ED96</string>
-				<string>D28609A9577E4FE68066AF18</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B2C2D9BDC8C64058958D658D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BBAF1FC03B334E5F9514EA0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>B30859C94D444434A49BDA3F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>581B405F55724F25AFCA5328</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B3D8925C2AA74A2087DA2027</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-iOS-GPX-Framework-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B42575DC05554458A24FD583</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TBXML.m</string>
-			<key>path</key>
-			<string>TBXML-Code/TBXML.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B567C62A9EBE474BA10D53EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXTrackPoint.h</string>
-			<key>path</key>
-			<string>GPX/GPXTrackPoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6A357FEB39C4077A7EBF30C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B72263C824434E9FB19D78C1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B72263C824434E9FB19D78C1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TBXML.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BBAF1FC03B334E5F9514EA0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXTrack.m</string>
-			<key>path</key>
-			<string>GPX/GPXTrack.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BBB30E2696574FEA8E53C40F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AC979DF67DAC44B2B756DA52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD194086941A49DA9C76CF1F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A6C38B8133C34420AE45521B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>BE315F03201F47D4B7AFB7F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E53E982A658D45F3BC044EF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BE47C5E6801F4C9492498D28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TBXML+HTTP.m</string>
-			<key>path</key>
-			<string>TBXML-Code/TBXML+HTTP.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF1BD210691A448CBDCA8B37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXCopyright.m</string>
-			<key>path</key>
-			<string>GPX/GPXCopyright.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C05D531288F34FA6BE9C479F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>D45751323E1C4A91812F7889</string>
-			<key>targetProxy</key>
-			<string>ABCA5C5A653F4332B1D40066</string>
-		</dict>
-		<key>C14F29DFE654435FA5EDDAF5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2B90D2DB75554C41BB44C869</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-TBXML-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C357D414F0794C6682BC281F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6081C1E8F404FEAA54C245A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E53E982A658D45F3BC044EF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C61A8E9687FA4669971B87FD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B567C62A9EBE474BA10D53EC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C983BA758E0C420CA351E534</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E54C980602FA428294D545FC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CA3FB083254E42A288A2F8A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXMetadata.h</string>
-			<key>path</key>
-			<string>GPX/GPXMetadata.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA5842F76954481DA9BDA428</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2B90D2DB75554C41BB44C869</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-TBXML-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CAFBBDEA2DEB46CC82E7E403</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EC333FA3C2C143449C08B8A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>D28609A9577E4FE68066AF18</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E02600BB93264F429A443E03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D45751323E1C4A91812F7889</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FF02D326A2B041C3B911E995</string>
-			<key>buildPhases</key>
-			<array>
-				<string>23EA7C56D1A0407F80262D19</string>
-				<string>B18FEBF99C0442EE8005080E</string>
-				<string>4EED4EF593C942CFB52E3063</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TBXML</string>
-			<key>productName</key>
-			<string>Pods-TBXML</string>
-			<key>productReference</key>
-			<string>B72263C824434E9FB19D78C1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>D62DCEB8D44C401D81052D4C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXWaypoint.m</string>
-			<key>path</key>
-			<string>GPX/GPXWaypoint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6AAF4F4EED24F06AAC6EC3E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B42575DC05554458A24FD583</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>D6FF715703D64D0D8A1C343C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A2A4B255D93447BA08A7D4D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D844D950DC814F2BBDABB687</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>DE5FE68772184887A92689E9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E99ABCBC0DA84EF18FE4CB50</string>
-				<string>852DFF7EFA2E43C6A8702F4E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DF58BA108443497D94FA2434</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A6633DBBA65D40A29FE8613E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E02600BB93264F429A443E03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXWaypoint.h</string>
-			<key>path</key>
-			<string>GPX/GPXWaypoint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2F011C42D8243DDB2EC6B5D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-TBXML-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3BC27DF4A9E46A19F01075A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>664201079828460293FF871D</string>
-				<string>B6A357FEB39C4077A7EBF30C</string>
-				<string>3B18BEDCD64E417AB3FBDA92</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E4117E3836C44B5ABA9542E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXType.m</string>
-			<key>path</key>
-			<string>GPX/GPXType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4CC3D523C734FAA832BD9CA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>879093802A6949CF82E34195</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E53E982A658D45F3BC044EF4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>E54C980602FA428294D545FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXConst.h</string>
-			<key>path</key>
-			<string>GPX/GPXConst.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E627A132358C452D996A8F82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-iOS-GPX-Framework.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E99ABCBC0DA84EF18FE4CB50</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EA7CB43C9EF54CB5972BF133</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXTrack.h</string>
-			<key>path</key>
-			<string>GPX/GPXTrack.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF82EB336CD4F739D85E6F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4D268075D5494E6EB3434AF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EC333FA3C2C143449C08B8A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXMetadata.m</string>
-			<key>path</key>
-			<string>GPX/GPXMetadata.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED32BFE07C5B424A9BFBFA54</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GPXLink.h</string>
-			<key>path</key>
-			<string>GPX/GPXLink.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED39D247911249B18B3E8F92</key>
-		<dict>
-			<key>fileRef</key>
-			<string>118E09580D1647FE83AFCF74</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>ED67625344CE4D82B1F6C3E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3645C01EE6D044A989FD569E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EE860F68F3FE4884B31A28DE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>63348401E74147AAAA7C10FB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EEFF7D9C60C34F76A703667A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXBounds.m</string>
-			<key>path</key>
-			<string>GPX/GPXBounds.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFAAA853C1494AC5AB0A5868</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D2CAAE3A795439EBC91281C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>FB389199224F4AAFA52966AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GPXParser.m</string>
-			<key>path</key>
-			<string>GPX/GPXParser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FBD113F85E8D452B8DD88145</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D844D950DC814F2BBDABB687</string>
-				<string>7B83DDD8F47A470B9B272D24</string>
-				<string>9F833811BC454956BB9AF446</string>
-				<string>FD03C9B1106C4083B67E001E</string>
-				<string>AC535544D3124A8BBFC8AD5D</string>
-				<string>B14BF62DC7F54AC9A5770718</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD03C9B1106C4083B67E001E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>31F61DF870E74D9EB8D7A89A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF02D326A2B041C3B911E995</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>CA5842F76954481DA9BDA428</string>
-				<string>C14F29DFE654435FA5EDDAF5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FF295B49EEA54A159E8621BC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-iOS-GPX-Framework.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>1B30F7680FDE40BF81CB548D</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F13350B6439D5E455E5DB69531147DD /* GPXType.m in Sources */ = {isa = PBXBuildFile; fileRef = D1245B5EFE42E470CD0878E7270D3EBB /* GPXType.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0FA50D816B299B1A4B774BF7728F9754 /* GPXPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E86091EC789F1CC613816A979FFD3B0D /* GPXPerson.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		247CBE4C7464AB064D56BFE75AE087B6 /* GPXAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BB2052889DC4309F42FEA77B151A89 /* GPXAuthor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		24B1D9EC894565D79598E883F387E8D6 /* GPXRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC999267DB0C17852FBC84F1F8CA0C /* GPXRoute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		300643194BA0C70757B13FEF057E0715 /* GPXRoutePoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C12B9B9ADF27774844018F760A8F342 /* GPXRoutePoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4F1DE8995C74E999256066B391B4D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		47D835B347973E99AFE91C1C38E80E5E /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		4ABE7F03CEBFC2F413C35C55FB358552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		4BE3AE1D4289622320D95C3526FB898C /* GPXTrackPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CD37A1CF23DBEE5A88567133F5CF2EE2 /* GPXTrackPoint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4E93548D2DA8D1DAE165675AD9A74659 /* GPXBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C74AA99F1EBDBBB09321903885FE3F /* GPXBounds.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		50B306862CE0DE4081C29DF324D7174D /* GPXTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 779511BDC459DFD7CE7C8A87F54531E3 /* GPXTrack.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		513548928E2484D741FF785EC9768E2F /* iOS-GPX-Framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02791F782BC25C727F20967E7416F6BD /* iOS-GPX-Framework-dummy.m */; };
+		54E9832FC9CA62002ACD98588CCCB5B9 /* GPXElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7274548BB8F88F22275C53F6B68AE98F /* GPXElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559EFB3F0C9CDE480893DD5EDBE2A505 /* GPXTrackSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8626FE9F3E6D77182569E5BA5458E2 /* GPXTrackSegment.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5961857428590A815E29E3606F2C64BD /* GPXElementSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A64BE0ACCB5E73AF47FE5CC800ABBF /* GPXElementSubclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E652FEDFFF46D11438D448A904788C0 /* GPXPointSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FABDB7D8D13C07E31D1D141485632 /* GPXPointSegment.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5F3AB33750E0A5053879390972838B0F /* GPXTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADBFFC04A0C24EBA9A724D7E382E537 /* GPXTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C3CDFC8061F3438E52391BB102A527 /* GPXAuthor.h in Headers */ = {isa = PBXBuildFile; fileRef = 08610BC44C211F6DCB40C5556DA9FB8A /* GPXAuthor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		672187B6E27583E4B7A6774EF148604D /* GPXParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEDDB96ADC7377EA4A2A19532BD74A2 /* GPXParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68790A820A037ECC77BEADC75225CFDE /* GPXMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 9268F4094767D05AFF18284E797A6844 /* GPXMetadata.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F792AC49FE29FE321A39CD1083E7E47 /* GPXTrackSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F29F37CFBC2417B3312A57F36C6C79 /* GPXTrackSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A0A8E6D79E6AF2B4D0C3AB9E24FD0F /* GPXCopyright.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0E2F72F39930B217798323D2082307 /* GPXCopyright.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A0487307E03B4714A2A7A59B25D61A /* GPXWaypoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF4A7EA139EE00FC04BB1A61D1C5F77 /* GPXWaypoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		782865B801B0D9D528B8EE0F6D7C3DE4 /* TBXML+HTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E31AE902556BDE14E035693C643A19 /* TBXML+HTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78D673B34B2F3CAB6B3A8FD06EEB4727 /* GPXEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DF19F1A02F5B2348DF156BFF4F7DCF /* GPXEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F0D03615B11B95F061FABB4F92FA87F /* GPXWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6525CC3F887AD9241B24006FD6AA90 /* GPXWaypoint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7F7C9AECFEF10470D69A42615A0EAB00 /* TBXML+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FAFF1746F17CDFAE3912086CF47703 /* TBXML+Compression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856B0961B178CD434001CC9088D0B5BF /* GPXPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = 26729ECC17D668A6C5F739A27578A1AF /* GPXPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859D355E5C8C5B4F27980DDB0FC690AA /* GPXType.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC1C210B1CC5EBFC27DF3A7679AF766 /* GPXType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F5C3DAF7E5C8CF8982654534C3AC41 /* GPXEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = A23EB0E268F883D42896F87B70CDA3E6 /* GPXEmail.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8AA40CCBAFF93AED8A50D9A8597A8CA5 /* GPXPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F04B4573BF63A165F88BE7D44740EED2 /* GPXPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EA3C8F40B68ED16AF57FE864EB599D /* GPXPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E103E43790F413E8BAA6219249653CB9 /* GPXPoint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		943C44CF5814A2F646AFC45AA0B69BEF /* GPXCopyright.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFFE010A2828583915683389FCB061A /* GPXCopyright.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		95DD85A7AF052AFD39F9499D2A58A286 /* GPX.h in Headers */ = {isa = PBXBuildFile; fileRef = 5327DB09547E765D6290DD4A4B1A8DF6 /* GPX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		971993FBE486C7608DBB14D2FFC93A59 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = FD67EDC65D06FA8D3E22CFB5A0C49315 /* TBXML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9C745BD037E0F71A5CE15CDC08E9C399 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E062EB307E813D80AA5ACDD7FC4A77D /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A0AB15025CFF3F349B83D86E19AF1DC7 /* GPXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D8DB7596DC0A562FBD8418920A15B4 /* GPXConst.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A4D25234D043B4681EAC1662471138D3 /* TBXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E720BC6B5210DC002733D0B7B97CB1C6 /* TBXML-dummy.m */; };
+		B846C65E5A5B1371F36AECE0AA13835F /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D54E14BD5966343E5AE227985333C6 /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C10339BE52691B5CB1237156507E4408 /* GPXLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 695AD98E0E202F83BFF0444A0997AA58 /* GPXLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8BE6B0642986FA1F40CB3931A99A640 /* GPXLink.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FC8EFE39BF99BF205222A2BCE8782B /* GPXLink.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C8E443DF73CE1003A93DE3DADCF82BA1 /* GPXConst.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FBCBBF7CFDC27732C98898033C9F2B /* GPXConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB03039478E4F164D358D92F728FD622 /* GPXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0698D3F95D5DA2113C188FB3CC88E2CD /* GPXExtensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CB52E9308647A8513E05788755198383 /* GPXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E2892E3E98A8931A070E11660AF366 /* GPXParser.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CF939395FF1730CD862CB36F1D4C25AD /* GPXMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B7C2652BCB17F0BDE58A2B52075B94 /* GPXMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D06A94A9081BFF5CC39823289BFE479A /* GPXRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 6337FB16C7E32E552345FFCF553B0CDC /* GPXRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8453BE366C5C66654037B901F13CD8B /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = A85A68441934BE1A5AC11E7E0E290929 /* TBXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8689F8628A025616D7FB81FB5D5A1DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		DAC9B558DC61E9E0ADA4561F266A0B0D /* GPXElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 997C9C9A3822F5407276A8E03016F48E /* GPXElement.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E11A9FDEF88CF415619604BFB1B9348F /* GPXBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A0D88A528024433694B5E43B10DBD40 /* GPXBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1953A6783D52DD684383BC80C29038D /* GPXTrackPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C7C8406DFD77DFA76FACBE600E0B72 /* GPXTrackPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB7E8AADFF7CFEC9C47470E2AB0037F1 /* GPXExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3212A469E236E7277A519D167C8C8DF3 /* GPXExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1A497D4CE7D882BD527E98D490178BC /* GPXRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDDED9ADB6D229D5C5D44D77ABD63A /* GPXRoot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F2929667AD41F0BF707CAD584F631BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		F90455BB47D1794CEE694D03C455F422 /* GPXRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8817068F979E8DD5ED782661B1C3A3D0 /* GPXRoot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9C9D1190C701919962809B302915DA9 /* GPXRoutePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD11BD0BA7CC46EFC52CCFC505DB2E9 /* GPXRoutePoint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FEB7E66F5C792CFE19AF9BA91D0B8E35 /* GPXPointSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D3EEF9E9B08B6AF05EBD8893070B90 /* GPXPointSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A58C2A9CEE6F81D14F4413ACC420992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8B4CEE5444509AFCC0E89D5DEDCD11F;
+			remoteInfo = TBXML;
+		};
+		B36EA93235B92BDC7723E3161EB0861E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E2F3D67DFE57B59FB29830C51EBDADD;
+			remoteInfo = "iOS-GPX-Framework";
+		};
+		DC86A2A58537E0BBB3E8D267943C4379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8B4CEE5444509AFCC0E89D5DEDCD11F;
+			remoteInfo = TBXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A64BE0ACCB5E73AF47FE5CC800ABBF /* GPXElementSubclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXElementSubclass.h; sourceTree = "<group>"; };
+		02791F782BC25C727F20967E7416F6BD /* iOS-GPX-Framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-GPX-Framework-dummy.m"; sourceTree = "<group>"; };
+		0698D3F95D5DA2113C188FB3CC88E2CD /* GPXExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXExtensions.m; sourceTree = "<group>"; };
+		07D8DB7596DC0A562FBD8418920A15B4 /* GPXConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXConst.m; sourceTree = "<group>"; };
+		08610BC44C211F6DCB40C5556DA9FB8A /* GPXAuthor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXAuthor.h; sourceTree = "<group>"; };
+		0A3AFD51E1C13C1DA036B8AD318F5181 /* libiOS-GPX-Framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-GPX-Framework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCDDED9ADB6D229D5C5D44D77ABD63A /* GPXRoot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXRoot.m; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		24FAFF1746F17CDFAE3912086CF47703 /* TBXML+Compression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+Compression.h"; path = "TBXML-Headers/TBXML+Compression.h"; sourceTree = "<group>"; };
+		26729ECC17D668A6C5F739A27578A1AF /* GPXPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXPerson.h; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2ADBFFC04A0C24EBA9A724D7E382E537 /* GPXTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXTrack.h; sourceTree = "<group>"; };
+		2E062EB307E813D80AA5ACDD7FC4A77D /* TBXML+HTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+HTTP.m"; path = "TBXML-Code/TBXML+HTTP.m"; sourceTree = "<group>"; };
+		3212A469E236E7277A519D167C8C8DF3 /* GPXExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXExtensions.h; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38C7C8406DFD77DFA76FACBE600E0B72 /* GPXTrackPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXTrackPoint.h; sourceTree = "<group>"; };
+		43E2892E3E98A8931A070E11660AF366 /* GPXParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXParser.m; sourceTree = "<group>"; };
+		45D54E14BD5966343E5AE227985333C6 /* TBXML+Compression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+Compression.m"; path = "TBXML-Code/TBXML+Compression.m"; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		5327DB09547E765D6290DD4A4B1A8DF6 /* GPX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPX.h; sourceTree = "<group>"; };
+		58B7C2652BCB17F0BDE58A2B52075B94 /* GPXMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXMetadata.h; sourceTree = "<group>"; };
+		5A0D88A528024433694B5E43B10DBD40 /* GPXBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXBounds.h; sourceTree = "<group>"; };
+		5B6525CC3F887AD9241B24006FD6AA90 /* GPXWaypoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXWaypoint.m; sourceTree = "<group>"; };
+		6337FB16C7E32E552345FFCF553B0CDC /* GPXRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXRoute.h; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		695AD98E0E202F83BFF0444A0997AA58 /* GPXLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXLink.h; sourceTree = "<group>"; };
+		6C12B9B9ADF27774844018F760A8F342 /* GPXRoutePoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXRoutePoint.h; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7274548BB8F88F22275C53F6B68AE98F /* GPXElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXElement.h; sourceTree = "<group>"; };
+		779511BDC459DFD7CE7C8A87F54531E3 /* GPXTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXTrack.m; sourceTree = "<group>"; };
+		7B6FABDB7D8D13C07E31D1D141485632 /* GPXPointSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXPointSegment.m; sourceTree = "<group>"; };
+		7BD11BD0BA7CC46EFC52CCFC505DB2E9 /* GPXRoutePoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXRoutePoint.m; sourceTree = "<group>"; };
+		80EC999267DB0C17852FBC84F1F8CA0C /* GPXRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXRoute.m; sourceTree = "<group>"; };
+		85930C4C75281FC1E2605BA4AC478E5E /* TBXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBXML-prefix.pch"; sourceTree = "<group>"; };
+		8817068F979E8DD5ED782661B1C3A3D0 /* GPXRoot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXRoot.h; sourceTree = "<group>"; };
+		88BF0C9D646BFAADCD7E6D97E9FA3C9E /* iOS-GPX-Framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-GPX-Framework.xcconfig"; sourceTree = "<group>"; };
+		8E8626FE9F3E6D77182569E5BA5458E2 /* GPXTrackSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXTrackSegment.m; sourceTree = "<group>"; };
+		9268F4094767D05AFF18284E797A6844 /* GPXMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXMetadata.m; sourceTree = "<group>"; };
+		95DF19F1A02F5B2348DF156BFF4F7DCF /* GPXEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXEmail.h; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		997C9C9A3822F5407276A8E03016F48E /* GPXElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXElement.m; sourceTree = "<group>"; };
+		9CF4A7EA139EE00FC04BB1A61D1C5F77 /* GPXWaypoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXWaypoint.h; sourceTree = "<group>"; };
+		A140A5C340FA05EC613AA622341CFD21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A23EB0E268F883D42896F87B70CDA3E6 /* GPXEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXEmail.m; sourceTree = "<group>"; };
+		A85A68441934BE1A5AC11E7E0E290929 /* TBXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBXML.h; path = "TBXML-Headers/TBXML.h"; sourceTree = "<group>"; };
+		A8D3EEF9E9B08B6AF05EBD8893070B90 /* GPXPointSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXPointSegment.h; sourceTree = "<group>"; };
+		ACFFE010A2828583915683389FCB061A /* GPXCopyright.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXCopyright.m; sourceTree = "<group>"; };
+		B3FC8EFE39BF99BF205222A2BCE8782B /* GPXLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXLink.m; sourceTree = "<group>"; };
+		B4F29F37CFBC2417B3312A57F36C6C79 /* GPXTrackSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXTrackSegment.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBXML.xcconfig; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3C74AA99F1EBDBBB09321903885FE3F /* GPXBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXBounds.m; sourceTree = "<group>"; };
+		C7FBCBBF7CFDC27732C98898033C9F2B /* GPXConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXConst.h; sourceTree = "<group>"; };
+		CD37A1CF23DBEE5A88567133F5CF2EE2 /* GPXTrackPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXTrackPoint.m; sourceTree = "<group>"; };
+		CEC1C210B1CC5EBFC27DF3A7679AF766 /* GPXType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXType.h; sourceTree = "<group>"; };
+		CF0E2F72F39930B217798323D2082307 /* GPXCopyright.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXCopyright.h; sourceTree = "<group>"; };
+		D1245B5EFE42E470CD0878E7270D3EBB /* GPXType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXType.m; sourceTree = "<group>"; };
+		D63ED438AAA344F04C2E7DF618F1AAA1 /* libTBXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTBXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BB2052889DC4309F42FEA77B151A89 /* GPXAuthor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXAuthor.m; sourceTree = "<group>"; };
+		DFEDDB96ADC7377EA4A2A19532BD74A2 /* GPXParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXParser.h; sourceTree = "<group>"; };
+		E103E43790F413E8BAA6219249653CB9 /* GPXPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXPoint.m; sourceTree = "<group>"; };
+		E720BC6B5210DC002733D0B7B97CB1C6 /* TBXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBXML-dummy.m"; sourceTree = "<group>"; };
+		E86091EC789F1CC613816A979FFD3B0D /* GPXPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GPXPerson.m; sourceTree = "<group>"; };
+		EE94FCD4679081CDBCD01F34F4E389EA /* iOS-GPX-Framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-GPX-Framework-prefix.pch"; sourceTree = "<group>"; };
+		F04B4573BF63A165F88BE7D44740EED2 /* GPXPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GPXPoint.h; sourceTree = "<group>"; };
+		F8E31AE902556BDE14E035693C643A19 /* TBXML+HTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+HTTP.h"; path = "TBXML-Headers/TBXML+HTTP.h"; sourceTree = "<group>"; };
+		FD67EDC65D06FA8D3E22CFB5A0C49315 /* TBXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = "TBXML-Code/TBXML.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF30D0AFEBC77493DCB469733843ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2929667AD41F0BF707CAD584F631BC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AC6D99DFEC00F9389C2CB1DFE1E1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4F1DE8995C74E999256066B391B4D5 /* Foundation.framework in Frameworks */,
+				D8689F8628A025616D7FB81FB5D5A1DF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5AB305E9BBAE6563FCDEDB4550D92C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABE7F03CEBFC2F413C35C55FB358552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		364EBE82E6EAFE1A15E3DA736F94F900 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				A85A68441934BE1A5AC11E7E0E290929 /* TBXML.h */,
+				FD67EDC65D06FA8D3E22CFB5A0C49315 /* TBXML.m */,
+				24FAFF1746F17CDFAE3912086CF47703 /* TBXML+Compression.h */,
+				45D54E14BD5966343E5AE227985333C6 /* TBXML+Compression.m */,
+				F8E31AE902556BDE14E035693C643A19 /* TBXML+HTTP.h */,
+				2E062EB307E813D80AA5ACDD7FC4A77D /* TBXML+HTTP.m */,
+				C3E8146F7432E53E9CD503B28478B428 /* Support Files */,
+			);
+			path = TBXML;
+			sourceTree = "<group>";
+		};
+		3F20A19298A51F95E736931EFBD46533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3AFD51E1C13C1DA036B8AD318F5181 /* libiOS-GPX-Framework.a */,
+				A140A5C340FA05EC613AA622341CFD21 /* libPods.a */,
+				D63ED438AAA344F04C2E7DF618F1AAA1 /* libTBXML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8ED613DE0009459B84CF6E779F5886C4 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BCDB7CBC6396332C2BDBA0C784AE6FFB /* Pods */,
+				3F20A19298A51F95E736931EFBD46533 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED613DE0009459B84CF6E779F5886C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B35DF792FC7FEFB4A42EB921428CD4C5 /* iOS-GPX-Framework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9E2FBFC7C86C8414DEBED8FA2DB5847D /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				5327DB09547E765D6290DD4A4B1A8DF6 /* GPX.h */,
+				08610BC44C211F6DCB40C5556DA9FB8A /* GPXAuthor.h */,
+				D7BB2052889DC4309F42FEA77B151A89 /* GPXAuthor.m */,
+				5A0D88A528024433694B5E43B10DBD40 /* GPXBounds.h */,
+				C3C74AA99F1EBDBBB09321903885FE3F /* GPXBounds.m */,
+				C7FBCBBF7CFDC27732C98898033C9F2B /* GPXConst.h */,
+				07D8DB7596DC0A562FBD8418920A15B4 /* GPXConst.m */,
+				CF0E2F72F39930B217798323D2082307 /* GPXCopyright.h */,
+				ACFFE010A2828583915683389FCB061A /* GPXCopyright.m */,
+				7274548BB8F88F22275C53F6B68AE98F /* GPXElement.h */,
+				997C9C9A3822F5407276A8E03016F48E /* GPXElement.m */,
+				00A64BE0ACCB5E73AF47FE5CC800ABBF /* GPXElementSubclass.h */,
+				95DF19F1A02F5B2348DF156BFF4F7DCF /* GPXEmail.h */,
+				A23EB0E268F883D42896F87B70CDA3E6 /* GPXEmail.m */,
+				3212A469E236E7277A519D167C8C8DF3 /* GPXExtensions.h */,
+				0698D3F95D5DA2113C188FB3CC88E2CD /* GPXExtensions.m */,
+				695AD98E0E202F83BFF0444A0997AA58 /* GPXLink.h */,
+				B3FC8EFE39BF99BF205222A2BCE8782B /* GPXLink.m */,
+				58B7C2652BCB17F0BDE58A2B52075B94 /* GPXMetadata.h */,
+				9268F4094767D05AFF18284E797A6844 /* GPXMetadata.m */,
+				DFEDDB96ADC7377EA4A2A19532BD74A2 /* GPXParser.h */,
+				43E2892E3E98A8931A070E11660AF366 /* GPXParser.m */,
+				26729ECC17D668A6C5F739A27578A1AF /* GPXPerson.h */,
+				E86091EC789F1CC613816A979FFD3B0D /* GPXPerson.m */,
+				F04B4573BF63A165F88BE7D44740EED2 /* GPXPoint.h */,
+				E103E43790F413E8BAA6219249653CB9 /* GPXPoint.m */,
+				A8D3EEF9E9B08B6AF05EBD8893070B90 /* GPXPointSegment.h */,
+				7B6FABDB7D8D13C07E31D1D141485632 /* GPXPointSegment.m */,
+				8817068F979E8DD5ED782661B1C3A3D0 /* GPXRoot.h */,
+				0DCDDED9ADB6D229D5C5D44D77ABD63A /* GPXRoot.m */,
+				6337FB16C7E32E552345FFCF553B0CDC /* GPXRoute.h */,
+				80EC999267DB0C17852FBC84F1F8CA0C /* GPXRoute.m */,
+				6C12B9B9ADF27774844018F760A8F342 /* GPXRoutePoint.h */,
+				7BD11BD0BA7CC46EFC52CCFC505DB2E9 /* GPXRoutePoint.m */,
+				2ADBFFC04A0C24EBA9A724D7E382E537 /* GPXTrack.h */,
+				779511BDC459DFD7CE7C8A87F54531E3 /* GPXTrack.m */,
+				38C7C8406DFD77DFA76FACBE600E0B72 /* GPXTrackPoint.h */,
+				CD37A1CF23DBEE5A88567133F5CF2EE2 /* GPXTrackPoint.m */,
+				B4F29F37CFBC2417B3312A57F36C6C79 /* GPXTrackSegment.h */,
+				8E8626FE9F3E6D77182569E5BA5458E2 /* GPXTrackSegment.m */,
+				CEC1C210B1CC5EBFC27DF3A7679AF766 /* GPXType.h */,
+				D1245B5EFE42E470CD0878E7270D3EBB /* GPXType.m */,
+				9CF4A7EA139EE00FC04BB1A61D1C5F77 /* GPXWaypoint.h */,
+				5B6525CC3F887AD9241B24006FD6AA90 /* GPXWaypoint.m */,
+			);
+			path = GPX;
+			sourceTree = "<group>";
+		};
+		B35DF792FC7FEFB4A42EB921428CD4C5 /* iOS-GPX-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				9E2FBFC7C86C8414DEBED8FA2DB5847D /* GPX */,
+				E9FA875B7132E3F938947DDEF6705A6B /* Support Files */,
+			);
+			name = "iOS-GPX-Framework";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BCDB7CBC6396332C2BDBA0C784AE6FFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				364EBE82E6EAFE1A15E3DA736F94F900 /* TBXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3E8146F7432E53E9CD503B28478B428 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */,
+				E720BC6B5210DC002733D0B7B97CB1C6 /* TBXML-dummy.m */,
+				85930C4C75281FC1E2605BA4AC478E5E /* TBXML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TBXML";
+			sourceTree = "<group>";
+		};
+		E9FA875B7132E3F938947DDEF6705A6B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88BF0C9D646BFAADCD7E6D97E9FA3C9E /* iOS-GPX-Framework.xcconfig */,
+				02791F782BC25C727F20967E7416F6BD /* iOS-GPX-Framework-dummy.m */,
+				EE94FCD4679081CDBCD01F34F4E389EA /* iOS-GPX-Framework-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/iOS-GPX-Framework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CC5F7B177FBC3266645282708D2957F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7C9AECFEF10470D69A42615A0EAB00 /* TBXML+Compression.h in Headers */,
+				782865B801B0D9D528B8EE0F6D7C3DE4 /* TBXML+HTTP.h in Headers */,
+				D8453BE366C5C66654037B901F13CD8B /* TBXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F817BDA913BA39BB80F790DA7F7E9DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DD85A7AF052AFD39F9499D2A58A286 /* GPX.h in Headers */,
+				64C3CDFC8061F3438E52391BB102A527 /* GPXAuthor.h in Headers */,
+				E11A9FDEF88CF415619604BFB1B9348F /* GPXBounds.h in Headers */,
+				C8E443DF73CE1003A93DE3DADCF82BA1 /* GPXConst.h in Headers */,
+				70A0A8E6D79E6AF2B4D0C3AB9E24FD0F /* GPXCopyright.h in Headers */,
+				54E9832FC9CA62002ACD98588CCCB5B9 /* GPXElement.h in Headers */,
+				5961857428590A815E29E3606F2C64BD /* GPXElementSubclass.h in Headers */,
+				78D673B34B2F3CAB6B3A8FD06EEB4727 /* GPXEmail.h in Headers */,
+				EB7E8AADFF7CFEC9C47470E2AB0037F1 /* GPXExtensions.h in Headers */,
+				C10339BE52691B5CB1237156507E4408 /* GPXLink.h in Headers */,
+				CF939395FF1730CD862CB36F1D4C25AD /* GPXMetadata.h in Headers */,
+				672187B6E27583E4B7A6774EF148604D /* GPXParser.h in Headers */,
+				856B0961B178CD434001CC9088D0B5BF /* GPXPerson.h in Headers */,
+				8AA40CCBAFF93AED8A50D9A8597A8CA5 /* GPXPoint.h in Headers */,
+				FEB7E66F5C792CFE19AF9BA91D0B8E35 /* GPXPointSegment.h in Headers */,
+				F90455BB47D1794CEE694D03C455F422 /* GPXRoot.h in Headers */,
+				D06A94A9081BFF5CC39823289BFE479A /* GPXRoute.h in Headers */,
+				300643194BA0C70757B13FEF057E0715 /* GPXRoutePoint.h in Headers */,
+				5F3AB33750E0A5053879390972838B0F /* GPXTrack.h in Headers */,
+				E1953A6783D52DD684383BC80C29038D /* GPXTrackPoint.h in Headers */,
+				6F792AC49FE29FE321A39CD1083E7E47 /* GPXTrackSegment.h in Headers */,
+				859D355E5C8C5B4F27980DDB0FC690AA /* GPXType.h in Headers */,
+				75A0487307E03B4714A2A7A59B25D61A /* GPXWaypoint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D442F5CFCA257E7385F9B85C767E740 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B99B3CDC1AD8A4F47472B7E57368DD /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				58F1A1E9BB450C4841D4BD3D69F341EB /* Sources */,
+				D5AB305E9BBAE6563FCDEDB4550D92C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438F0F38FB09DB5EB0E7C14F020143D0 /* PBXTargetDependency */,
+				B2AC8D2BF293BB7B6FB4CF0E0AB60F92 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A140A5C340FA05EC613AA622341CFD21 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8E2F3D67DFE57B59FB29830C51EBDADD /* iOS-GPX-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15420F90D60B0C8530A2FB592F7CB000 /* Build configuration list for PBXNativeTarget "iOS-GPX-Framework" */;
+			buildPhases = (
+				CA0A95498B7BCDB1A44B437293115297 /* Sources */,
+				B8AC6D99DFEC00F9389C2CB1DFE1E1CE /* Frameworks */,
+				7F817BDA913BA39BB80F790DA7F7E9DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF413621883A563E169CA06371EB207B /* PBXTargetDependency */,
+			);
+			name = "iOS-GPX-Framework";
+			productName = "iOS-GPX-Framework";
+			productReference = 0A3AFD51E1C13C1DA036B8AD318F5181 /* libiOS-GPX-Framework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A8B4CEE5444509AFCC0E89D5DEDCD11F /* TBXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EC6892E697A37745B7449CB9117F2B /* Build configuration list for PBXNativeTarget "TBXML" */;
+			buildPhases = (
+				E8541DA6506976C3AD1299223A1E08EE /* Sources */,
+				9AF30D0AFEBC77493DCB469733843ADD /* Frameworks */,
+				2CC5F7B177FBC3266645282708D2957F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBXML;
+			productName = TBXML;
+			productReference = D63ED438AAA344F04C2E7DF618F1AAA1 /* libTBXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3F20A19298A51F95E736931EFBD46533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E2F3D67DFE57B59FB29830C51EBDADD /* iOS-GPX-Framework */,
+				1D442F5CFCA257E7385F9B85C767E740 /* Pods */,
+				A8B4CEE5444509AFCC0E89D5DEDCD11F /* TBXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F1A1E9BB450C4841D4BD3D69F341EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D835B347973E99AFE91C1C38E80E5E /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0A95498B7BCDB1A44B437293115297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247CBE4C7464AB064D56BFE75AE087B6 /* GPXAuthor.m in Sources */,
+				4E93548D2DA8D1DAE165675AD9A74659 /* GPXBounds.m in Sources */,
+				A0AB15025CFF3F349B83D86E19AF1DC7 /* GPXConst.m in Sources */,
+				943C44CF5814A2F646AFC45AA0B69BEF /* GPXCopyright.m in Sources */,
+				DAC9B558DC61E9E0ADA4561F266A0B0D /* GPXElement.m in Sources */,
+				87F5C3DAF7E5C8CF8982654534C3AC41 /* GPXEmail.m in Sources */,
+				CB03039478E4F164D358D92F728FD622 /* GPXExtensions.m in Sources */,
+				C8BE6B0642986FA1F40CB3931A99A640 /* GPXLink.m in Sources */,
+				68790A820A037ECC77BEADC75225CFDE /* GPXMetadata.m in Sources */,
+				CB52E9308647A8513E05788755198383 /* GPXParser.m in Sources */,
+				0FA50D816B299B1A4B774BF7728F9754 /* GPXPerson.m in Sources */,
+				92EA3C8F40B68ED16AF57FE864EB599D /* GPXPoint.m in Sources */,
+				5E652FEDFFF46D11438D448A904788C0 /* GPXPointSegment.m in Sources */,
+				F1A497D4CE7D882BD527E98D490178BC /* GPXRoot.m in Sources */,
+				24B1D9EC894565D79598E883F387E8D6 /* GPXRoute.m in Sources */,
+				F9C9D1190C701919962809B302915DA9 /* GPXRoutePoint.m in Sources */,
+				50B306862CE0DE4081C29DF324D7174D /* GPXTrack.m in Sources */,
+				4BE3AE1D4289622320D95C3526FB898C /* GPXTrackPoint.m in Sources */,
+				559EFB3F0C9CDE480893DD5EDBE2A505 /* GPXTrackSegment.m in Sources */,
+				0F13350B6439D5E455E5DB69531147DD /* GPXType.m in Sources */,
+				7F0D03615B11B95F061FABB4F92FA87F /* GPXWaypoint.m in Sources */,
+				513548928E2484D741FF785EC9768E2F /* iOS-GPX-Framework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8541DA6506976C3AD1299223A1E08EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B846C65E5A5B1371F36AECE0AA13835F /* TBXML+Compression.m in Sources */,
+				9C745BD037E0F71A5CE15CDC08E9C399 /* TBXML+HTTP.m in Sources */,
+				A4D25234D043B4681EAC1662471138D3 /* TBXML-dummy.m in Sources */,
+				971993FBE486C7608DBB14D2FFC93A59 /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438F0F38FB09DB5EB0E7C14F020143D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBXML;
+			target = A8B4CEE5444509AFCC0E89D5DEDCD11F /* TBXML */;
+			targetProxy = 8A58C2A9CEE6F81D14F4413ACC420992 /* PBXContainerItemProxy */;
+		};
+		AF413621883A563E169CA06371EB207B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBXML;
+			target = A8B4CEE5444509AFCC0E89D5DEDCD11F /* TBXML */;
+			targetProxy = DC86A2A58537E0BBB3E8D267943C4379 /* PBXContainerItemProxy */;
+		};
+		B2AC8D2BF293BB7B6FB4CF0E0AB60F92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-GPX-Framework";
+			target = 8E2F3D67DFE57B59FB29830C51EBDADD /* iOS-GPX-Framework */;
+			targetProxy = B36EA93235B92BDC7723E3161EB0861E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07C899455403A7641BCDC02880F04B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBXML/TBXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1D30019FAB262FEA3EA3D2AC02FC3189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3DAC769BF5C367BCF2E51552413BB647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		56ED6D467A880529B08FDDC792FA6827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BF0C9D646BFAADCD7E6D97E9FA3C9E /* iOS-GPX-Framework.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-GPX-Framework/iOS-GPX-Framework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9BFF6E9EF1DCA5D9539C31ACD46597F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BF0C9D646BFAADCD7E6D97E9FA3C9E /* iOS-GPX-Framework.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-GPX-Framework/iOS-GPX-Framework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6082A338D773C916989C4A244496426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF5FE5080879233BEDC07ABD821EC1E /* TBXML.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBXML/TBXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15420F90D60B0C8530A2FB592F7CB000 /* Build configuration list for PBXNativeTarget "iOS-GPX-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFF6E9EF1DCA5D9539C31ACD46597F6 /* Debug */,
+				56ED6D467A880529B08FDDC792FA6827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26EC6892E697A37745B7449CB9117F2B /* Build configuration list for PBXNativeTarget "TBXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6082A338D773C916989C4A244496426 /* Debug */,
+				07C899455403A7641BCDC02880F04B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B99B3CDC1AD8A4F47472B7E57368DD /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAC769BF5C367BCF2E51552413BB647 /* Debug */,
+				1D30019FAB262FEA3EA3D2AC02FC3189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
