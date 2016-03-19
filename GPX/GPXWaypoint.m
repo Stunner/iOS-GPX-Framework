@@ -92,7 +92,7 @@
     return self;
 }
 
-+ (GPXWaypoint *)waypointWithLatitude:(CGFloat)latitude longitude:(CGFloat)longitude
++ (GPXWaypoint *)waypointWithLatitude:(double)latitude longitude:(double)longitude
 {
     GPXWaypoint *waypoint = [GPXWaypoint new];
     waypoint.latitude = latitude;

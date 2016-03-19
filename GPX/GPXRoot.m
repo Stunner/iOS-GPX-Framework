@@ -101,11 +101,23 @@
     return @"http://www.topografix.com/GPX/1/1";
 }
 
-- (GPXWaypoint *)newWaypointWithLatitude:(CGFloat)latitude longitude:(CGFloat)longitude
+- (GPXWaypoint *)newWaypointWithLatitude:(double)latitude longitude:(double)longitude
 {
     GPXWaypoint *waypoint = [GPXWaypoint waypointWithLatitude:latitude longitude:longitude];
     [self addWaypoint:waypoint];
     return waypoint;
+}
+
+- (NSArray <GPXWaypoint *> *)findWaypointsWithLatitude:(double)latitude longitude:(double)longitude
+{
+    NSArray <GPXWaypoint *> *filteredArray = [_waypoints filteredArrayUsingPredicate:[NSPredicate
+                                            predicateWithBlock:^BOOL(id _Nonnull evaluatedObject, NSDictionary<NSString *,id> * _Nullable bindings)
+    {
+        GPXWaypoint *waypoint = (GPXWaypoint *)evaluatedObject;
+        return (trunc(1000. * waypoint.latitude) == trunc(1000. * latitude) &&
+                trunc(1000. * waypoint.longitude) == trunc(1000. * longitude));
+    }]];
+    return filteredArray;
 }
 
 - (void)addWaypoint:(GPXWaypoint *)waypoint
@@ -132,6 +144,13 @@
     if (index != NSNotFound) {
         waypoint.parent = nil;
         [_waypoints removeObject:waypoint];
+    }
+}
+
+- (void)removeWaypoints:(NSArray <GPXWaypoint *> *)waypoints
+{
+    for (GPXWaypoint *waypoint in waypoints) {
+        [self removeWaypoint:waypoint];
     }
 }
 

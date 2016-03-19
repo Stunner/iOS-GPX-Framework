@@ -26,25 +26,25 @@ typedef NS_ENUM(NSInteger, GPXFix) {
  @param value The string which to convert CGFloat. A value ≥−90 and ≤90.
  @return A CGFloat from a value.
  */
-+ (CGFloat)latitude:(NSString *)value;
++ (double)latitude:(NSString *)value;
 
 /** Return the NSString object from a given CGFloat.
  @param latitude The CGFloat which to convert NSString. A value ≥−90 and ≤90.
  @return A NSString from a latitude.
  */
-+ (NSString *)valueForLatitude:(CGFloat)latitude;
++ (NSString *)valueForLatitude:(double)latitude;
 
 /** Return the CGFloat object from a given string.
  @param value The string which to convert CGFloat. A value ≥−180 and ≤180.
  @return A CGFloat from a value.
  */
-+ (CGFloat)longitude:(NSString *)value;
++ (double)longitude:(NSString *)value;
 
 /** Return the NSString object from a given CGFloat.
  @param longitude The CGFloat which to convert NSString. A value ≥−180 and ≤180.
  @return A NSString from a longitude.
  */
-+ (NSString *)valueForLongitude:(CGFloat)longitude;
++ (NSString *)valueForLongitude:(double)longitude;
 
 /** Return the CGFloat object from a given string.
  @param value The string which to convert CGFloat. A value ≥0 and ≤360.

@@ -10,7 +10,7 @@
 
 @implementation GPXType
 
-+ (CGFloat)latitude:(NSString *)value
++ (double)latitude:(NSString *)value
 {
     @try {
         CGFloat f = [value floatValue];
@@ -24,16 +24,16 @@
     return 0.f;
 }
 
-+ (NSString *)valueForLatitude:(CGFloat)latitude
++ (NSString *)valueForLatitude:(double)latitude
 {
     if (-90.f <= latitude && latitude <= 90.f) {
-        return [NSString stringWithFormat:@"%f", latitude];
+        return [NSString stringWithFormat:@"%lf", latitude];
     }
     
     return @"0";
 }
 
-+ (CGFloat)longitude:(NSString *)value
++ (double)longitude:(NSString *)value
 {
     @try {
         CGFloat f = [value floatValue];
@@ -47,10 +47,10 @@
     return 0.f;
 }
 
-+ (NSString *)valueForLongitude:(CGFloat)longitude
++ (NSString *)valueForLongitude:(double)longitude
 {
     if (-180.f <= longitude && longitude <= 180.f) {
-        return [NSString stringWithFormat:@"%f", longitude];
+        return [NSString stringWithFormat:@"%lf", longitude];
     }
     
     return @"0";

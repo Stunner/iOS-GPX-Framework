@@ -72,8 +72,18 @@
  @param longitude The longitude of the point.
  @return A newly created waypoint element.
  */
-- (GPXWaypoint *)newWaypointWithLatitude:(CGFloat)latitude longitude:(CGFloat)longitude;
+- (GPXWaypoint *)newWaypointWithLatitude:(double)latitude longitude:(double)longitude;
 
+/// ---------------------------------
+/// @name Finding Waypoint
+/// ---------------------------------
+
+/** Returns an array of waypoint elements with latitude and longitude values matching those passed in.
+ @param latitude The latitude of the point.
+ @param longitude The longitude of the point.
+ @return An array of waypoint elements.
+ */
+- (NSArray <GPXWaypoint *> *)findWaypointsWithLatitude:(double)latitude longitude:(double)longitude;
 
 /// ---------------------------------
 /// @name Adding Waypoint
@@ -99,6 +109,10 @@
  */
 - (void)removeWaypoint:(GPXWaypoint *)waypoint;
 
+/** Removes all waypoints passed in.
+ @param waypoints Array of GPXWaypoints object to remove from the waypoint array.
+ */
+- (void)removeWaypoints:(NSArray <GPXWaypoint *> *)waypoints;
 
 /// ---------------------------------
 /// @name Creating Route

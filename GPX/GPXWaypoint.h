@@ -86,10 +86,10 @@
 @property (strong, nonatomic) GPXExtensions *extensions;
 
 /** The latitude of the point. Decimal degrees, WGS84 datum. */
-@property (nonatomic, assign) CGFloat latitude;
+@property (nonatomic, assign) double latitude;
 
 /** The longitude of the point. Decimal degrees, WGS84 datum. */
-@property (nonatomic, assign) CGFloat longitude;
+@property (nonatomic, assign) double longitude;
 
 
 /// ---------------------------------
@@ -101,7 +101,7 @@
  @param longitude The longitude of the point.
  @return A newly created waypoint element.
  */
-+ (GPXWaypoint *)waypointWithLatitude:(CGFloat)latitude longitude:(CGFloat)longitude;
++ (GPXWaypoint *)waypointWithLatitude:(double)latitude longitude:(double)longitude;
 
 
 /// ---------------------------------
